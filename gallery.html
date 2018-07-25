@@ -1,0 +1,664 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+	<link href="https://fonts.googleapis.com/earlyaccess/roundedmplus1c.css" rel="stylesheet" />
+	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:100" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Poiret+One|Rajdhani" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">	
+	<link href="dist/skitter.css" type="text/css" media="all" rel="stylesheet" />
+<script src="js/jquery-2.1.1.min.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="dist/jquery.skitter.min.js"></script>
+<script src="js/iziModal.min.js"></script>
+<link rel="stylesheet" href="css/iziModal.min.css">
+</head>	
+<body>
+<div class="hamburger-gallery"><i id="hamburgeropen"class="fas fa-bars top"></i></div>
+<div class="hamburgermenuwrap">
+<div class="hamburgermenu">
+	<div class="hamburgermenuclosewrap">
+		<div class="closebtn" id="hamburgerclose"><div id="s"></div></div>
+	</div>
+	<ul class="hamburgermenuul">
+		<li>
+			<div class="hamburgermenubtnwrap">
+				<a href="index.html" class="hamburgermenubtn">HOME</a>
+			</div>
+			<div class="hamburgermenubtnwrap">
+				<a href="gallery.html" class="hamburgermenubtn">GALLERLY</a>
+			</div>
+			<div class="hamburgermenubtnwrap">
+				<a href="member.html" class="hamburgermenubtn">MEMBER</a>
+			</div>
+			<div class="hamburgermenubtnwrap">
+				<a href="event.html" class="hamburgermenubtn">EVENT</a>
+			</div>
+		</li>
+	</ul>
+</div>
+</div>
+<div class="top-triangle left"></div>	
+	<div class="headerwrap-other clearfix">	
+		<img class="rogo-gallery top" src="shufflelogo-white.png">
+		<ul class="header navitem fixed right">
+			<li><a class="headeritem" href="index.html">home</a></li>
+			<li><a class="headeritem" href="gallery.html">gallery</a></li>
+			<li><a class="headeritem" href="member.html">member</a></li>
+			<li><a class="headeritem" href="event.html">event</a></li>
+		</ul>
+	</div>
+	<div class="kara top">
+	</div>
+<div class="bottom-triangle right"></div>	
+<div class="galleryopen">
+	<div class="opendesc right">FILTER</div>
+	<div class="openlogo right" id="openlogo"><div class="openicon"></div></div>
+</div>
+<div class="filtermenu">
+	<div class="filtermenu-category">
+		<h3 class="category-name">EDITOR</h3>
+		<div class="btnsection">
+			<label class="gallerybtn tazfilm">
+				<input class="hidden" type="checkbox" value="tazfilm">Taz-Film
+			</label>
+		</div>
+		<div class="btnsection">
+			<label class="gallerybtn kentstv">
+				<input class="hidden" type="checkbox" value="kentstv">KENTS-TV
+			</label>
+		</div>
+		<div class="btnsection">
+			<label class="gallerybtn wasaridetv">
+				<input class="hidden" type="checkbox" value="wasaridetv">WASARIDE-TV
+			</label>
+		</div>
+	</div>
+	<div class="filtermenu-category">
+		<h3 class="category-name">SERIES</h3>
+		<div class="btnsection">
+			<label class="gallerybtn namari">
+				<input class="hidden" type="checkbox" value="namari">NAMARI
+			</label>
+		</div>
+		<div class="btnsection">
+			<label class="gallerybtn namaride">
+				<input class="hidden" type="checkbox" value="namaride">NAMARIDE
+			</label>
+		</div>
+		<div class="btnsection">
+			<label class="gallerybtn seasonmovie">
+				<input class="hidden" type="checkbox" value="seasonmovie">SEASON MOVIE
+			</label>
+		</div>
+	</div>
+	<div class="filtermenu-category">
+		<h3 class="category-name">KEY WORDS</h3>
+		<div class="btnsection">
+			<label class="gallerybtn sk8">
+				<input class="hidden" type="checkbox" value="sk8">SK8
+			</label>
+		</div>
+		<div class="btnsection">
+			<label class="gallerybtn kings">
+				<input class="hidden" type="checkbox" value="kings"><span class="k">K</span><span class="i">I</span><span class="n">N</span><span class="g">G</span><span class="s">S</span>
+			</label>
+		</div>
+		<div class="btnsection">
+			<label class="gallerybtn photos">
+				<input class="hidden" type="checkbox" value="photos">PHOTOS
+			</label>
+		</div>
+	</div>
+	<div class="closebtn" id="closebtn"><div id="s"></div></div>
+</div> 
+<section class="scroll-gallery" id="scroll-gallery">
+<!ここからサムネ>	
+	<div class="scroll-item tazfilm hashima" data-iziModal-open=".izi104">
+		<img class="thumbnail" src="thumbnail/104.jpg">
+	</div>
+	<div class="scroll-item tazfilm kings" data-iziModal-open=".izi103">
+		<img class="thumbnail" src="thumbnail/103.jpg">
+	</div>
+	<div class="scroll-item tazfilm" data-iziModal-open=".izi102">
+		<img class="thumbnail" src="thumbnail/102.jpg">
+	</div>
+	<div class="scroll-item seasonmovie" data-iziModal-open=".izi101">
+		<img class="thumbnail" src="thumbnail/101.jpg">
+	</div>
+	<div class="scroll-item namari" data-iziModal-open=".izi100">
+		<img class="thumbnail" src="thumbnail/100.jpg">
+	</div>
+	<div class="scroll-item kentstv" data-iziModal-open=".izi99">
+		<img class="thumbnail" src="thumbnail/99.jpg">
+	</div>
+	<div class="scroll-item" data-iziModal-open=".izi98">
+		<img class="thumbnail" src="thumbnail/98.jpg">
+	</div>
+	<div class="scroll-item tazfilm" data-iziModal-open=".izi97">
+		<img class="thumbnail" src="thumbnail/97.jpg">
+	</div>
+	<div class="scroll-item kentstv" data-iziModal-open=".izi96">
+		<img class="thumbnail" src="thumbnail/96.jpg">
+	</div>
+	<div class="scroll-item kentstv" data-iziModal-open=".izi95">
+		<img class="thumbnail" src="thumbnail/95.jpg">
+	</div>
+	<div class="scroll-item tazfilm" data-iziModal-open=".izi94">
+		<img class="thumbnail" src="thumbnail/94.jpg">
+	</div>
+	<div class="scroll-item kentstv" data-iziModal-open=".izi93">
+		<img class="thumbnail" src="thumbnail/93.jpg">
+	</div>
+	<div class="scroll-item tazfilm" data-iziModal-open=".izi92">
+		<img class="thumbnail" src="thumbnail/92.jpg">
+	</div>
+	<div class="scroll-item hashima" data-iziModal-open=".izi91">
+		<img class="thumbnail" src="thumbnail/91.jpg">
+	</div>
+	<div class="scroll-item kings" data-iziModal-open=".izi90">
+		<img class="thumbnail" src="thumbnail/90.jpg">
+	</div>
+	<div class="scroll-item kings" data-iziModal-open=".izi89">
+		<img class="thumbnail" src="thumbnail/89.jpg">
+	</div>
+	<div class="scroll-item kings" data-iziModal-open=".izi87">
+		<img class="thumbnail" src="thumbnail/87.jpg">
+	</div>
+	<div class="scroll-item kings" data-iziModal-open=".izi86">
+		<img class="thumbnail" src="thumbnail/86.jpg">
+	</div>
+	<div class="scroll-item sk8" data-iziModal-open=".izi85">
+		<img class="thumbnail" src="thumbnail/85.jpg">
+	</div>
+	<div class="scroll-item tazfilm" data-iziModal-open=".izi84">
+		<img class="thumbnail" src="thumbnail/84.jpg">
+	</div>
+	<div class="scroll-item kentstv" data-iziModal-open=".izi83">
+		<img class="thumbnail" src="thumbnail/83.jpg">
+	</div>
+	<div class="scroll-item hashima tazfilm" data-iziModal-open=".izi82">
+		<img class="thumbnail" src="thumbnail/82.jpg">
+	</div>
+	<div class="scroll-item seasonmovie" data-iziModal-open=".izi81">
+		<img class="thumbnail" src="thumbnail/81.jpg">
+	</div>
+	<div class="scroll-item namari" data-iziModal-open=".izi80">
+		<img class="thumbnail" src="thumbnail/80.jpg">
+	</div>
+	<div class="scroll-item kentstv" data-iziModal-open=".izi79">
+		<img class="thumbnail" src="thumbnail/79.jpg">
+	</div>
+	<div class="scroll-item namari" data-iziModal-open=".izi78">
+		<img class="thumbnail" src="thumbnail/78.jpg">
+	</div>
+	<div class="scroll-item kentstv camp" data-iziModal-open=".izi77">
+		<img class="thumbnail" src="thumbnail/77.jpg">
+	</div>
+	<div class="scroll-item camp kentstv" data-iziModal-open=".izi76">
+		<img class="thumbnail" src="thumbnail/76.jpg">
+	</div>
+	<div class="scroll-item kentstv" data-iziModal-open=".izi75">
+		<img class="thumbnail" src="thumbnail/75.jpg">
+	</div>
+	<div class="scroll-item" data-iziModal-open=".izi74">
+		<img class="thumbnail" src="thumbnail/74.jpg">
+	</div>
+	<div class="scroll-item kentstv" data-iziModal-open=".izi73">
+		<img class="thumbnail" src="thumbnail/73.jpg">
+	</div>
+	<div class="scroll-item hashima kentstv" data-iziModal-open=".izi72">
+		<img class="thumbnail" src="thumbnail/72.jpg">
+	</div>
+	<div class="scroll-item kings" data-iziModal-open=".izi71">
+		<img class="thumbnail" src="thumbnail/71.jpg">
+	</div>
+	<div class="scroll-item hasima kentstv" data-iziModal-open=".izi70">
+		<img class="thumbnail" src="thumbnail/70.jpg">
+	</div>
+	<div class="scroll-item" data-iziModal-open=".izi69">
+		<img class="thumbnail" src="thumbnail/69.jpg">
+	</div>
+	<div class="scroll-item kentstv" data-iziModal-open=".izi68">
+		<img class="thumbnail" src="thumbnail/68.jpg">
+	</div>
+	<div class="scroll-item kings" data-iziModal-open=".izi67">
+		<img class="thumbnail" src="thumbnail/67.jpg">
+	</div>
+	<div class="scroll-item hashima" data-iziModal-open=".izi66">
+		<img class="thumbnail" src="thumbnail/66.jpg">
+	</div>
+	<div class="scroll-item" data-iziModal-open=".izi65">
+		<img class="thumbnail" src="thumbnail/65.jpg">
+	</div>
+	<div class="scroll-item kentstv hashima" data-iziModal-open=".izi64">
+		<img class="thumbnail" src="thumbnail/64.jpg">
+	</div>
+	<div class="scroll-item" data-iziModal-open=".izi63">
+		<img class="thumbnail" src="thumbnail/63.jpg">
+	</div>
+	<div class="scroll-item kings" data-iziModal-open=".izi62">
+		<img class="thumbnail" src="thumbnail/62.jpg">
+	</div>
+	<div class="scroll-item kings" data-iziModal-open=".izi61">
+		<img class="thumbnail" src="thumbnail/61.jpg">
+	</div>
+	<div class="scroll-item seasonmovie" data-iziModal-open=".izi60">
+		<img class="thumbnail" src="thumbnail/60.jpg">
+	</div>
+	<div class="scroll-item kentstv" data-iziModal-open=".izi59">
+		<img class="thumbnail" src="thumbnail/59.jpg">
+	</div> 
+	<div class="scroll-item" data-iziModal-open=".izi58">
+		<img class="thumbnail" src="thumbnail/58.jpg">
+	</div>
+	<div class="scroll-item kentstv" data-iziModal-open=".izi57">
+		<img class="thumbnail" src="thumbnail/57.jpg">
+	</div>
+	<div class="scroll-item kentstv" data-iziModal-open=".izi56">
+		<img class="thumbnail" src="thumbnail/56.jpg">
+	</div>
+	<div class="scroll-item camp" data-iziModal-open=".izi55">
+		<img class="thumbnail" src="thumbnail/55.jpg">
+	</div>
+	<div class="scroll-item wasaridetv" data-iziModal-open=".izi54">
+		<img class="thumbnail" src="thumbnail/54.jpg">
+	</div>
+	<div class="scroll-item kentstv" data-iziModal-open=".izi53">
+		<img class="thumbnail" src="thumbnail/53.jpg">
+	</div>
+	<div class="scroll-item kentstv" data-iziModal-open=".izi52">
+		<img class="thumbnail" src="thumbnail/52.jpg">
+	</div>
+	<div class="scroll-item kentstv" data-iziModal-open=".izi51">
+		<img class="thumbnail" src="thumbnail/51.jpg">
+	</div>
+	<div class="scroll-item kentstv" data-iziModal-open=".izi50">
+		<img class="thumbnail" src="thumbnail/50.jpg">
+	</div>
+	<div class="scroll-item" data-iziModal-open=".izi49">
+		<img class="thumbnail" src="thumbnail/49.jpg">
+	</div>
+	<div class="scroll-item kentstv" data-iziModal-open=".izi48">
+		<img class="thumbnail" src="thumbnail/48.jpg">
+	</div>
+	<div class="scroll-item camp" data-iziModal-open=".izi47">
+		<img class="thumbnail" src="thumbnail/47.jpg">
+	</div>
+	<div class="scroll-item" data-iziModal-open=".izi46">
+		<img class="thumbnail" src="thumbnail/46.jpg">
+	</div>
+	<div class="scroll-item kings wasaridetv" data-iziModal-open=".izi45">
+		<img class="thumbnail" src="thumbnail/45.jpg">
+	</div>
+	<div class="scroll-item" data-iziModal-open=".izi44">
+		<img class="thumbnail" src="thumbnail/44.jpg">
+	</div>
+	<div class="scroll-item" data-iziModal-open=".izi43">
+		<img class="thumbnail" src="thumbnail/43.jpg">
+	</div>
+	<div class="scroll-item kings" data-iziModal-open=".izi42">
+		<img class="thumbnail" src="thumbnail/42.jpg">
+	</div>
+	<div class="scroll-item kings" data-iziModal-open=".izi41">
+		<img class="thumbnail" src="thumbnail/41.jpg">
+	</div>
+	<div class="scroll-item kings" data-iziModal-open=".izi40">
+		<img class="thumbnail" src="thumbnail/40.jpg">
+	</div>
+	<div class="scroll-item kings" data-iziModal-open=".izi39">
+		<img class="thumbnail" src="thumbnail/39.jpg">
+	</div>
+	<div class="scroll-item kings" data-iziModal-open=".izi38">
+		<img class="thumbnail" src="thumbnail/38.jpg">
+	</div>
+	<div class="scroll-item kings"data-iziModal-open=".izi37">
+		<img class="thumbnail" src="thumbnail/37.jpg">
+	</div>
+	<div class="scroll-item kings" data-iziModal-open=".izi36">
+		<img class="thumbnail" src="thumbnail/36.jpg">
+	</div>
+	<div class="scroll-item sk8" data-iziModal-open=".izi35">
+		<img class="thumbnail" src="thumbnail/35.jpg">
+	</div>
+	<div class="scroll-item kings" data-iziModal-open=".izi34">
+		<img class="thumbnail" src="thumbnail/34.jpg">
+	</div>
+	<div class="scroll-item" data-iziModal-open=".izi33">
+		<img class="thumbnail" src="thumbnail/33.jpg">
+	</div>
+	<div class="scroll-item kings" data-iziModal-open=".izi32">
+		<img class="thumbnail" src="thumbnail/32.jpg">
+	</div>
+	<div class="scroll-item kings" data-iziModal-open=".izi31">
+		<img class="thumbnail" src="thumbnail/31.jpg">
+	</div>
+	<div class="scroll-item" data-iziModal-open=".izi30">
+		<img class="thumbnail" src="thumbnail/30.jpg">
+	</div>
+	<div class="scroll-item wasaridetv" data-iziModal-open=".izi29">
+		<img class="thumbnail" src="thumbnail/29.jpg">
+	</div>
+	<div class="scroll-item sk8" data-iziModal-open=".izi28">
+		<img class="thumbnail" src="thumbnail/28.jpg">
+	</div>
+	<div class="scroll-item hashima" data-iziModal-open=".izi27">
+		<img class="thumbnail" src="thumbnail/27.jpg">
+	</div>
+	<div class="scroll-item seasonmovie" data-iziModal-open=".izi26">
+		<img class="thumbnail" src="thumbnail/26.jpg">
+	</div>
+	<div class="scroll-item namaride" data-iziModal-open=".izi25">
+		<img class="thumbnail" src="thumbnail/25.jpg">
+	</div>
+	<div class="scroll-item" data-iziModal-open=".izi24">
+		<img class="thumbnail" src="thumbnail/24.jpg">
+	</div>
+	<div class="scroll-item" data-iziModal-open=".izi23">
+		<img class="thumbnail" src="thumbnail/23.jpg">
+	</div>
+	<div class="scroll-item hashima" data-iziModal-open=".izi22">
+		<img class="thumbnail" src="thumbnail/22.jpg">
+	</div>
+	<div class="scroll-item sk8" data-iziModal-open=".izi21">
+		<img class="thumbnail" src="thumbnail/21.jpg">
+	</div>
+	<div class="scroll-item sk8" data-iziModal-open=".izi20">
+		<img class="thumbnail" src="thumbnail/20.jpg">
+	</div>
+	<div class="scroll-item sk8" data-iziModal-open=".izi19">
+		<img class="thumbnail" src="thumbnail/19.jpg">
+	</div>
+	<div class="scroll-item sk8" data-iziModal-open=".izi18">
+		<img class="thumbnail" src="thumbnail/18.jpg">
+	</div>
+	<div class="scroll-item sk8" data-iziModal-open=".izi17">
+		<img class="thumbnail" src="thumbnail/17.jpg">
+	</div>
+	<div class="scroll-item" data-iziModal-open=".izi16">
+		<img class="thumbnail" src="thumbnail/16.jpg">
+	</div>
+	<div class="scroll-item kings" data-iziModal-open=".izi15">
+		<img class="thumbnail" src="thumbnail/15.jpg">
+	</div>
+	<div class="scroll-item wasaridetv" data-iziModal-open=".izi14">
+		<img class="thumbnail" src="thumbnail/14.jpg">
+	</div>
+	<div class="scroll-item" data-iziModal-open=".izi13">
+		<img class="thumbnail" src="thumbnail/13.jpg">
+	</div>
+	<div class="scroll-item" data-iziModal-open=".izi12">
+		<img class="thumbnail" src="thumbnail/12.jpg">
+	</div>
+	<div class="scroll-item" data-iziModal-open=".izi11">
+		<img class="thumbnail" src="thumbnail/11.jpg">
+	</div>
+	<div class="scroll-item" data-iziModal-open=".izi10">
+		<img class="thumbnail" src="thumbnail/10.jpg">
+	</div>
+	<div class="scroll-item" data-iziModal-open=".izi9">
+		<img class="thumbnail" src="thumbnail/9.jpg">
+	</div>
+	<div class="scroll-item" data-iziModal-open=".izi8">
+		<img class="thumbnail" src="thumbnail/8.jpg">
+	</div>
+	<div class="scroll-item namaride" data-iziModal-open=".izi7">
+		<img class="thumbnail" src="thumbnail/7.jpg">
+	</div>
+	<div class="scroll-item namaride" data-iziModal-open=".izi6">
+		<img class="thumbnail" src="thumbnail/6.jpg">
+	</div>
+
+<!ここまでサムネまじお疲れ>	
+</section>
+<!ここからモーダルウィンドウ>
+	<div class="izi104" data-izimodal-iframeURL="https://www.youtube.com/embed/xNG_EoCmsWo" >
+	</div>	
+	<div class="izi103" data-izimodal-iframeURL="https://www.youtube.com/embed/nq1arZSBcDY?controls=0" >
+	</div>	
+	<div class="izi102" data-izimodal-iframeURL="https://www.youtube.com/embed/rldkxZ5KVUo" >
+	</div>	
+	<div class="izi101" data-izimodal-iframeURL="https://www.youtube.com/embed/AllVQ8Qkl7o" >
+	</div>
+	<div class="izi100" data-izimodal-iframeURL="https://www.youtube.com/embed/q1KPYfKxLf4" >
+	</div>	
+	<div class="izi99" data-izimodal-iframeURL="https://www.youtube.com/embed/QvisyUu2Vm4" >
+	</div>	
+	<div class="izi98" data-izimodal-iframeURL="https://www.youtube.com/embed/j8dSnf47oh4">
+	</div>	
+	<div class="izi97" data-izimodal-iframeURL="https://www.youtube.com/embed/j8dSnf47oh4">
+	</div>	
+	<div class="izi96" data-izimodal-iframeURL="https://www.youtube.com/	embed/4O2-Tv3J79k">
+	</div>	
+	<div class="izi95" data-izimodal-iframeURL="https://www.youtube.com/embed/wgRhzIz0JXU">
+	</div>	
+	<div class="izi94" data-izimodal-iframeURL="https://www.youtube.com/embed/7PNKHA1xykM">
+	</div>	
+	<div class="izi93" data-izimodal-iframeURL="https://www.youtube.com/embed/STRxKDWtl7E">
+	</div>	
+	<div class="izi92" data-izimodal-iframeURL="https://www.youtube.com/embed/BmPsk1lrqKM">
+	</div>	
+	<div class="izi91" data-izimodal-iframeURL="https://www.youtube.com/	embed/9UeJp82lBBE">
+	</div>	
+	<div class="izi90" data-izimodal-iframeURL="https://www.youtube.com/embed/dwPyWLWC_ng">
+	</div>	
+	<div class="izi89" data-izimodal-iframeURL="https://www.youtube.com/embed/rTpoLP20cIc">
+	</div>		
+	<div class="izi88" data-izimodal-iframeURL="https://www.youtube.com/embed/PGJ5L4AjQ9g" >
+	</div>	
+	<div class="izi87" data-izimodal-iframeURL="https://www.youtube.com/embed/3FiAHhgG-eM">
+	</div>	
+	<div class="izi86" data-izimodal-iframeURL="https://www.youtube.com/embed/TLS1pFc_zE4">
+	</div>	
+	<div class="izi85" data-izimodal-iframeURL="https://www.youtube.com/embed/On18mJGgloo">
+	</div>	
+	<div class="izi84" data-izimodal-iframeURL="https://www.youtube.com/embed/CYenJLwxN_I">
+	</div>	
+	<div class="izi83" data-izimodal-iframeURL="https://www.youtube.com/embed	/n0B6JfEuB-g">
+	</div>	
+	</div>	
+	<div class="izi81" data-izimodal-iframeURL="https://www.youtube.com/embed/ZyZEw30vk48" >
+	</div>	
+	<div class="izi80" data-izimodal-iframeURL="https://www.youtube.com/embed/mtOtlMfEIAo">
+	</div>	
+	<div class="izi79" data-izimodal-iframeURL="https://www.youtube.com/embed/03xUH3qHyno">
+	</div>	
+	<div class="izi78" data-izimodal-iframeURL="https://www.youtube.com/embed/ditpJQNu6O0">
+	</div>	
+	<div class="izi77" data-izimodal-iframeURL="https://www.youtube.com/embed/6YNlNCoBuws">
+	</div>	
+	<div class="izi76" data-izimodal-iframeURL="https://www.youtube.com/embed/ClTsSLNE8oE">
+	</div>	
+	<div class="izi75" data-izimodal-iframeURL="https://www.youtube.com/embed/8ElwvXZcVes">
+	</div>	
+	<div class="izi74" data-izimodal-iframeURL="https://www.youtube.com/embed/VtxtoYyEoAM">
+	</div>	
+
+	<div class="izi73" data-izimodal-iframeURL="https://www.youtube.com/embed/0Wt4-xAHLjg">
+	</div>	
+	<div class="izi72" data-izimodal-iframeURL="https://www.youtube.com/embed/Ap6biiTTPq4">
+	</div>	
+	<div class="izi71" data-izimodal-iframeURL="https://www.youtube.com/embed/RmxVbw1Dslc">
+	</div>	
+	<div class="izi70" data-izimodal-iframeURL="https://www.youtube.com/embed/8RHvPNmEcoc">
+	</div>	
+	<div class="izi69" data-izimodal-iframeURL="https://www.youtube.com/embed/pEze4AH0Ub0">
+	</div>	
+	<div class="izi68" data-izimodal-iframeURL="https://www.youtube.com/embed/I8ozKK5PeXI">
+	</div>	
+	<div class="izi67" data-izimodal-iframeURL="https://www.youtube.com/embed/u7iKt4kH-oE">
+	</div>	
+	<div class="izi66" data-izimodal-iframeURL="https://www.youtube.com/embed/m0vwZdxQWzk">
+	</div>	
+	<div class="izi65" data-izimodal-iframeURL="https://www.youtube.com/embed/Ho_5gtsKrC8">
+	</div>	
+	<div class="izi64" data-izimodal-iframeURL="https://www.youtube.com/embed/pg5tHSZr8Uo">
+	</div>	
+	<div class="izi63" data-izimodal-iframeURL="https://www.youtube.com/embed/mlJXDDd4vCI">
+	</div>	
+	<div class="izi62" data-izimodal-iframeURL="https://www.youtube.com/embed/eHc2_4DD5Vs">
+	</div>	
+	<div class="izi61" data-izimodal-iframeURL="https://www.youtube.com/embed/Fs1XCjKtWS8">
+	</div>	
+	<div class="izi60" data-izimodal-iframeURL="https://www.youtube.com/embed/0m5CXPNUIj0">
+	</div>	
+	<div class="izi59" data-izimodal-iframeURL="https://www.youtube.com/embed/7h1NKWTOiBM">
+	</div>	
+	<div class="izi58" data-izimodal-iframeURL="https://www.youtube.com/embed/kSSs7Pmjl3U">
+	</div>	
+	<div class="izi57" data-izimodal-iframeURL="https://www.youtube.com/embed/ptWONwnQJrE">
+	</div>	
+	<div class="izi56" data-izimodal-iframeURL="https://www.youtube.com/embed/Vic-S6RIZVY">
+	</div>	
+	<div class="izi55" data-izimodal-iframeURL="https://www.youtube.com/embed/7umpz5-D0pE">
+	</div>	
+	<div class="izi54" data-izimodal-iframeURL="https://www.youtube.com/embed/BsKVeBkuHPE">
+	</div>	
+	<div class="izi53" data-izimodal-iframeURL="https://www.youtube.com/embed/XkZ09CmGlak">
+	</div>	
+	<div class="izi52" data-izimodal-iframeURL="https://www.youtube.com/embed/QcJNcybG1FQ">
+	</div>	
+	<div class="izi51" data-izimodal-iframeURL="https://www.youtube.com/embed/zPg1j9km85M">
+	</div>	
+	<div class="izi50" data-izimodal-iframeURL="https://www.youtube.com/embed/cv9OWr2c3xQ">
+	</div>	
+	<div class="izi49" data-izimodal-iframeURL="https://www.youtube.com/embed/uGgsm2M43eI">
+	</div>	
+	<div class="izi48" data-izimodal-iframeURL="https://www.youtube.com/embed/aGRpqdwsIyo">
+	</div>	
+	<div class="izi47" data-izimodal-iframeURL="https://www.youtube.com/embed/BH7bd-ax3uQ">
+	</div>	
+	<div class="izi46" data-izimodal-iframeURL="https://www.youtube.com/embed/_8GXyUJlxPg">
+	</div>	
+	<div class="izi45" data-izimodal-iframeURL="https://www.youtube.com/embed/Elm4uYcYNhI">
+	</div>	
+	<div class="izi44" data-izimodal-iframeURL="https://www.youtube.com/embed/bjHqilCYRo0">
+	</div>	
+	<div class="izi43" data-izimodal-iframeURL="https://www.youtube.com/embed/e0FPpi0fIDs">
+	</div>	
+	<div class="izi42" data-izimodal-iframeURL="https://www.youtube.com/embed/hcxbpC8MW54">
+	</div>	
+	<div class="izi41" data-izimodal-iframeURL="https://www.youtube.com/embed/GWY6WEui2Mc">
+	</div>	
+	<div class="izi40" data-izimodal-iframeURL="https://www.youtube.com/embed/00M0DowIfN8">
+	</div>	
+	<div class="izi39" data-izimodal-iframeURL="https://www.youtube.com/embed/KY6_8MV1q4E">
+	</div>	
+	<div class="izi38" data-izimodal-iframeURL="https://www.youtube.com/embed/vd0wuF6-vhc">
+	</div>	
+	<div class="izi37" data-izimodal-iframeURL="https://www.youtube.com/embed/MP6j2GQ_5co">
+	</div>	
+	<div class="izi36" data-izimodal-iframeURL="https://www.youtube.com/embed/PceSGYzyYgE">
+	</div>	
+	<div class="izi35" data-izimodal-iframeURL="https://www.youtube.com/embed/CIQLzOXII0k">
+	</div>	
+	<div class="izi34" data-izimodal-iframeURL="https://www.youtube.com/embed/hP1RqX0Sf_4">
+	</div>	
+	<div class="izi33" data-izimodal-iframeURL="https://www.youtube.com/embed/-plRzRTBTr0">
+	</div>	
+	<div class="izi32" data-izimodal-iframeURL="https://www.youtube.com/embed/ltmovafk6-A">
+	</div>	
+	<div class="izi31" data-izimodal-iframeURL="https://www.youtube.com/embed/5FFW32a6b_g">
+	</div>	
+	<div class="izi30" data-izimodal-iframeURL="https://www.youtube.com/embed/AKryvvJyTYA">
+	</div>	
+	<div class="izi29" data-izimodal-iframeURL="https://www.youtube.com/embed/ptyD7dMGTtU">
+	</div>	
+	<div class="izi28" data-izimodal-iframeURL="https://www.youtube.com/embed/EhJhUWSxrSE">
+	</div>	
+	<div class="izi27" data-izimodal-iframeURL="https://www.youtube.com/embed/tPMKZjh1QOs">
+	</div>	
+	<div class="izi26" data-izimodal-iframeURL="https://www.youtube.com/embed/f2g502qYMDU">
+	</div>	
+	<div class="izi25" data-izimodal-iframeURL="https://www.youtube.com/embed/CJeT8avbjrI">
+	</div>	
+	<div class="izi24" data-izimodal-iframeURL="https://www.youtube.com/embed/MDm07fAEspQ">
+	</div>	
+	<div class="izi23" data-izimodal-iframeURL="https://www.youtube.com/embed/hY26DDh1qTs">
+	</div>	
+	<div class="izi22" data-izimodal-iframeURL="https://www.youtube.com/embed/q9nHp0gdgg0" >
+	</div>	
+	<div class="izi21" data-izimodal-iframeURL="https://www.youtube.com/embed/l4RjMDjiuY0">
+	</div>	
+	<div class="izi20" data-izimodal-iframeURL="https://www.youtube.com/embed/2dPvaDC0wPk">
+	</div>	
+	<div class="izi19" data-izimodal-iframeURL="https://www.youtube.com/embed/nPi3SdmU9dU">
+	</div>	
+	<div class="izi18" data-izimodal-iframeURL="https://www.youtube.com/embed/DABClUSPeEY">
+	</div>	
+	<div class="izi17" data-izimodal-iframeURL="https://www.youtube.com/embed/wuj-mG4Tm5M">
+	</div>	
+	<div class="izi16" data-izimodal-iframeURL="https://www.youtube.com/embed/VBwS8kmqgco">
+	</div>	
+	<div class="izi15" data-izimodal-iframeURL="https://www.youtube.com/embed/YN5YczWo65w">
+	</div>	
+	<div class="izi14" data-izimodal-iframeURL="https://www.youtube.com/embed/3nRUNULxwyE">
+	</div>	
+	<div class="izi13" data-izimodal-iframeURL="https://www.youtube.com/embed/cGdxonAG8KM" >
+	</div>	
+	<div class="izi12" data-izimodal-iframeURL="https://www.youtube.com/embed/PyX8V58bO7s">
+	</div>	
+	<div class="izi11" data-izimodal-iframeURL="https://www.youtube.com/embed/W-rCK_Zdbn8">
+	</div>	
+	<div class="izi10" data-izimodal-iframeURL="https://www.youtube.com/embed/T2j475fkM3s">
+	</div>	
+	<div class="izi9" data-izimodal-iframeURL="https://www.youtube.com/embed/kis3tJ6zJrc">
+	</div>	
+	<div class="izi8" data-izimodal-iframeURL="https://www.youtube.com/embed/r0bPJ6sUC4M">
+	</div>	
+	<div class="izi7" data-izimodal-iframeURL="https://www.youtube.com/embed/6OM_Yn_gY8U">
+	</div>	
+	<div class="izi6" data-izimodal-iframeURL="https://www.youtube.com/embed/vO99o8xPLHs">
+	</div>		
+<!ここまでモーダルウィンドウ>
+<script src="js/scrollreveal.min.js"></script>
+<script src="js/masonry.pkgd.min.js"></script>
+<script src="js/multipleFilterMasonry.js"></script>
+<script>
+	jQuery(function($){
+		$('#scroll-gallery').multipleFilterMasonry({
+			itemSelector:'.scroll-item',
+			filtersGroupSelector:".filtermenu",
+			columnWidth:20,
+			isFitWidth:true,
+			gutter:20,
+		})
+		$('#hamburgeropen,#hamburgerclose').on('click',function(){
+			$('.hamburgermenuwrap,.hamburgermenu').animate({height:'toggle'});
+		});
+		$('.gallerybtn').find('input').change(function(){
+			$(this).parent().toggleClass('checked');
+		});
+		$('#openlogo,#closebtn').on('click',function(){
+			$('.filtermenu').animate({width: 'toggle'});
+		});
+		for(var i=1;i<=104;i++){
+		$('.izi'+i).iziModal({
+			top:100,
+			bottom:0,
+			iframe:true,
+			overlayColor:'rgba(50,50,50,0.7)',
+			transitionIn:'bounceInUp',
+			transitionInOverlay:'bounceInDown',
+			transitionOut:'bounceOutDown',
+			transitionOutOverlay:'bounceOutUp',
+			width:1140,
+			iframeHeight:720,
+			background:'#00336d',
+		});
+	}
+	});
+	window.sr = ScrollReveal({ reset: false ,mobile: true});
+
+	   sr.reveal( '.left', { origin: 'left' , distance: '150%', duration: 500 , scale: 1.0, delay :100 ,opacity: 0.5,});
+       sr.reveal( '.right', { origin: 'right' , distance: '150%', duration: 500 , scale: 1.0, delay :500 ,opacity: 0.5,});
+       sr.reveal( '.top', { origin: 'top' , distance: '200%', duration: 500 , scale: 1.0, delay :500 ,opacity: 0,});
+       sr.reveal( '.bottom', { origin: 'bottom' , distance: '200%', duration: 1000 , scale: 1.0, delay :500 ,opacity: 0,});
+       sr.reveal( '.left-delay', { origin: 'left' , distance: '300%', duration: 1200 , scale: 1.0, delay :1000 ,opacity: 0,});
+
+</script>
+</body>
+</html>	
