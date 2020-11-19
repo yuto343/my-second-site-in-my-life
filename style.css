@@ -1,4 +1,5 @@
-html{font-size:62.5%;}
+html{font-size:62.5%;
+overflow:visible;}
 @font-face{
 	font-family:"chogokuboso";
 	src:url(chogokubosogothic_5.ttf);
@@ -46,7 +47,7 @@ body{overflow-x:hidden;position:relative;}
 	position:relative;
 	margin-right:20px;
 }
-@media(min-width:768px){
+@media(min-width:1200px){
 	.hamburger{display:none;}
 }
 .hamburgermenuwrap{
@@ -90,6 +91,12 @@ body{overflow-x:hidden;position:relative;}
 	width:200px;
 	border:1px solid white;
 }
+.SWPimg{
+	background-position:center,center;
+	background-size:cover;
+	width:100%;
+	height:100vh;
+}
 .rogo{
 	filter:drop-shadow(2px 2px 2px rgba(0,0,0,0.5));
 	margin-left:20px;
@@ -108,7 +115,7 @@ body{overflow-x:hidden;position:relative;}
 	width:600px;
 }
 /*木の下のやつはindexの@media*/
-@media(max-width:768px){
+@media(max-width:1200px){
 	.headerwrap{
 		text-align:center;
 	}
@@ -210,7 +217,7 @@ body{overflow-x:hidden;position:relative;}
 	font-family: 'Poiret One', cursive;
 	font-size:4rem;
 }
-@media(max-width:768px){
+@media(max-width:1200px){
 		.description{font-size:2rem;}
 			}
 .contents1{
@@ -219,7 +226,7 @@ body{overflow-x:hidden;position:relative;}
 	text-align:center;
 	margin:100px auto 100px auto;
 }
-@media(max-width:768px){
+@media(max-width:1200px){
 	.contents1{margin:auto;}
 		}
 .gotaswagpic{
@@ -228,7 +235,7 @@ body{overflow-x:hidden;position:relative;}
 	float:left;
 	width:500px;
 }
-@media(max-width:768px){
+@media(max-width:1200px){
 	.kaigyou{display:none;}
 	.gotaswagpic{
 		margin-left:auto;
@@ -262,7 +269,7 @@ body{overflow-x:hidden;position:relative;}
 	font-weight:200;
 	font-size:2rem;
 }
-@media(max-width:768px){
+@media(max-width:1200px){
 	.description3{
 		margin:auto 20px;
 		font-size:1.5rem;}
@@ -333,7 +340,7 @@ animation-iteration-count:infinite;
 	padding:25px 60px;
 	display:inline-block;
 }
-@media(max-width:768px){
+@media(max-width:1200px){
 	.subtitle{
 		font-size:2rem;
 		padding:25px;}
@@ -344,7 +351,7 @@ animation-iteration-count:infinite;
 	margin-right:auto;
 	margin-left:auto;
 }
-@media(max-width:768px){
+@media(max-width:1200px){
 	.seasonmovie-index{
 		width:auto;
 	}
@@ -354,14 +361,14 @@ animation-iteration-count:infinite;
 	margin-top:50px;
 	content:'';
 	display:inline-block;
-	width:800px;
+	width:calc(100% - 40px);
 	height:2px;
 	background:gray;
 }
 .youtube{
 	float:left;
 }
-@media(max-width:768px){
+@media(max-width:1200px){
 
 	.youtube {
 		float:none;
@@ -378,7 +385,7 @@ animation-iteration-count:infinite;
 	height:400px;
 	width:407.5px;
 }
-@media(max-width:768px){
+@media(max-width:1200px){
 	.moviebox{
 		height:auto;
 		width:330px;
@@ -387,7 +394,7 @@ animation-iteration-count:infinite;
 .odd{
 	position:relative;
 	right:14px;}
-@media(max-width:768px){
+@media(max-width:1200px){
 	.odd{position:static;}
 }
 .movietime{
@@ -558,7 +565,7 @@ animation-iteration-count:infinite;
 	font-size:2rem;
 	font-family:'Poiret One', sans-serif;
 }
-@media(max-width:768px){
+@media(max-width:1200px){
 	.footernav{
 		padding-top:100px;
 		line-height:1.7;}
@@ -585,7 +592,7 @@ body{
 .headerwrap-other{
 	margin-top:20px;
 }
-@media(max-width:768px){
+@media(max-width:1200px){
 	.headerwrap-other{
 		margin-top:auto;
 	}
@@ -622,7 +629,7 @@ body{
 	border-right:130px solid #00336D;
 
 }
-@media(max-width:768px){
+@media(max-width:1200px){
 	.bottom-triangle{
 	border-top:80px solid transparent;
 	border-bottom:80px solid #00336D;
@@ -691,9 +698,9 @@ body{
 	z-index:3;
 	position:fixed;
 	filter:drop-shadow(2px 2px 2px rgba(0,0,0,0.5));
-	margin-left:0px;
+	margin-left:20px;
 	float:left;
-	width:170px;
+	width:150px;
 }
 .hamburger-gallery{
 	right:10px;
@@ -709,7 +716,7 @@ body{
 }
 #hamburgeropen{transition:.5s;}
 #hamburgeropen:hover{transform:scale(1.3);}
-@media(max-width:768px){
+@media(max-width:1200px){
 	.btnsection{margin-top:20px;}
 	.filtermenu-category{
 		height:auto;
@@ -721,7 +728,7 @@ body{
 		z-index:3;
 		height:100vh;}
 	.rogo-gallery{
-		top:-5px;
+		top:5px;
 		width:100px;
 	}
 }
@@ -754,7 +761,7 @@ body{
 	transition:1s;
 	transform:scale(1.2,1.2);
 }
-@media(max-width:768px){
+@media(max-width:1200px){
 	.scroll-item{
 		width:300px;
 		height:168px;
@@ -885,7 +892,7 @@ body{
 	width:40px;
 }
 .thumbnail{width:100%;}	
-@media(max-width:768px){
+@media(max-width:1200px){
 	.openicon{
 		width:30px;
 		height:30px;}
@@ -920,7 +927,7 @@ body{
 	font-size:3rem;
 	font-family: 'Montserrat', sans-serif;
 }
-@media(max-width:768px){
+@media(max-width:1200px){
 	.title-member{
 		font-size:2rem;
 		width:300px;
@@ -948,7 +955,7 @@ body{
 	margin-top:50px;
 	content:'';
 	display:inline-block;
-	width:800px;
+	width:calc(100% - 40px);
 	height:2px;
 	background:gray;
 }	
@@ -989,19 +996,33 @@ body{
 
 }
 .memberdisc{
+	padding:10px;
+	font-family: 'M PLUS 1p', sans-serif;
 	margin-top:20px;
 	line-height:1.3;
 	font-size:1.5rem;
 	text-align:left;}	
-.memberpic{
+.memberpic1{
+	background-position:center,center;
+	background-size:cover;
 	margin-top:30px;
 	box-shadow:20px 20px 0px rgb(0,51,109);
 	display:inline-block;
 	height:250px;
 	width:250px;
-	background:red;
-	float:right;}
-@media(max-width:768px){
+	background-color:gray;
+	float:none;}
+.memberpic2{
+	background-position:50% 100%;
+	background-size:305%;
+	margin-top:30px;
+	box-shadow:20px 20px 0px rgb(0,51,109);
+	display:inline-block;
+	height:250px;
+	width:250px;
+	background-color:red;
+	float:none;}
+@media(max-width:1200px){
 	.membernameicon{top:6px;}
 	.membername{font-size:3rem;}
 	.title-member-legend{
@@ -1030,15 +1051,28 @@ body{
 	font-size:1.5rem;
 }
 .eventpic{
+	background-size:cover;
+	background-position:center center;
 	float:left;
 	display:inline-block;
-	background:black;
+	background-image:black;
 	height:400px;
 	width:712.5px;
 }
-.eventpic-odd{
+.eventpagewrap:nth-last-of-type(n+2)::after{
+	opacity:0.5;
+	margin-top:50px;
+	content:'';
 	display:inline-block;
-	background:black;
+	width:calc(100% - 40px);
+	height:2px;
+	background:gray;
+}	
+.eventpic-odd{
+	background-position:center center;
+	background-size:cover;
+	display:inline-block;
+	background-image:black;
 	height:400px;
 	width:712.5px;
 
@@ -1053,12 +1087,15 @@ margin-bottom: 150px;
 	margin-top:100px;
 }
 .swiper-slide img{margin:0 auto;}
-@media(max-width:768px){
+@media(max-width:1200px){
 	.eventpic-odd{
 		width:355px;
 		height:200px;
 		margin:0 10px;
 		display:block;
+	}
+	.eventpagewrap{
+		width:auto;
 	}
 	.eventpic{
 		margin:0 10px;
@@ -1066,7 +1103,9 @@ margin-bottom: 150px;
 		width:355px;
 		display:block;
 		float:none;}
-	.memberpagewrap{margin-top:auto;}
+	.memberpagewrap{
+		margin-top:auto;
+	}
 }
 
 

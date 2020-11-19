@@ -1,6 +1,17 @@
 <!doctype html>
 <html>
 <head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-124600797-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-124600797-1');
+</script>
+
+
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
 	<link href="https://fonts.googleapis.com/earlyaccess/roundedmplus1c.css" rel="stylesheet" />
@@ -55,7 +66,7 @@
 </div>
 <section class="movie">
 	<div class="eventpagewrap clearfix">
-			<div  class="eventpic left"> </div>
+			<div  class="eventpic leftmove" style="background-image:url(images/photos/hashima.jpg)"></div>
 			<div class="moviebox right">
 				<figure class="slowgun">
 					<h3 class="slowgunh3 eventpage bottom">羽島貸切セッション</h3>
@@ -71,7 +82,7 @@
 			</div>
 		</div>
 	<div class="eventpagewrap clearfix">
-			<div  class="eventpic-odd bottom"> </div>
+			<div  class="eventpic-odd bottom" style="background-image:url(images/photos/06.jpg)"> </div>
 			<div class="moviebox odd top">
 				<figure class="slowgun">
 					<h3 class="slowgunh3 eventpage bottom">KINGS貸切セッション</h3>
@@ -87,13 +98,13 @@
 			</div>
 		</div>
 	<div class="eventpagewrap clearfix">
-			<div  class="eventpic left"> </div>
+			<div  class="eventpic leftmove" style="background-image:url(images/photos/gassyuku.jpg)"> </div>
 			<div class="moviebox bottom">
 				<figure class="slowgun">
 					<h3 class="slowgunh3 eventpage top">合宿</h3>
 					<div class="figure-innner">
 						<figcaption id="figcaption3">
-						オンシーズンの合宿は大体月１〜２回の頻度で、長野、新潟など様々なスキー場で２泊3日〜３泊４日ぐらいの規模で行われます。初心者の子も上回生が交代で教えてくれるので、上手くなること間違いなしです。また、そのシーズンのシーズンムービーにイケてるカットを残すために全員が本気になって滑るのでいい意味で少し緊張感がある場面もありますが、やはりみんなで滑る楽しさで、一人一人がshuffleでよかったと実感するイベントです！
+						オンシーズンの合宿は大体月１〜２回の頻度で、長野、新潟など様々なスキー場で２泊３日〜３泊４日ぐらいの規模で行われます。初心者の子も上回生が交代で教えてくれるので、上手くなること間違いなしです。また、そのシーズンのシーズンムービーにイケてるカットを残すために全員が本気になって滑るのでいい意味で少し緊張感がある場面もありますが、やはりみんなで滑る楽しさで、一人一人がshuffleでよかったと実感するイベントです！
 						</figcaption>	
 					</div>
 					<div id="figure-button3">
@@ -148,7 +159,7 @@
 	});
 	window.sr = ScrollReveal({ reset: false ,mobile: true});
 
-	   sr.reveal( '.left', { origin: 'left' , distance: '150%', duration: 500 , scale: 1.0, delay :100 ,opacity: 0.5,});
+	   sr.reveal( '.leftmove', { origin: 'left' , distance: '150%', duration: 500 , scale: 1.0, delay :100 ,opacity: 0.5,});
        sr.reveal( '.right', { origin: 'right' , distance: '150%', duration: 500 , scale: 1.0, delay :500 ,opacity: 0.5,});
        sr.reveal( '.top', { origin: 'top' , distance: '200%', duration: 500 , scale: 1.0, delay :500 ,opacity: 0,});
        sr.reveal( '.bottom', { origin: 'bottom' , distance: '200%', duration: 1000 , scale: 1.0, delay :500 ,opacity: 0,});
